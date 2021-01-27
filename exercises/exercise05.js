@@ -33,3 +33,5 @@ let costumer = 100;
 let type = costumer >= 100 ? "premium": "common";
 
 console.log(type);
+
+// Falsy: Undefined; null; 0; false; ''; NaN.
