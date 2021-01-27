@@ -1,9 +1,13 @@
-colorSite = "blue";
+function name() {
+    console.log("Rafael");
+}
 
-function redColor (color, hue){
-    colorSite = color + hue
-};
+name();
 
-console.log(colorSite);
-redColor("red", " soft");
-console.log(colorSite);
+function multiplication(value) {
+    return value * 2;
+}
+
+let result = multiplication(5);
+
+console.log(result);
