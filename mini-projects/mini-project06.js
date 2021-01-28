@@ -9,7 +9,8 @@ showProperties(movie);
 function showProperties(object) {
     for (let index in object) {
         if (typeof object[index] == "string") {
-            console.log(object[index]);
+            console.log(index, object[index]);
         }
     }
 }
+ 
