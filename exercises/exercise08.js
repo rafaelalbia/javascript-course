@@ -24,7 +24,7 @@ const person = {
 };
 const colors = ["Red", "Blue", "Green"];
 
-for(let key in person) {
+for (let key in person) {
     console.log(key, person['name']);
 }
 
@@ -33,3 +33,6 @@ for (let index in colors) {
 }
 
 // For-of
+for (let color of colors) {
+    console.log(color);
+}
