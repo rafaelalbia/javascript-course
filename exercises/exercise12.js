@@ -5,3 +5,15 @@ menssage = "menssage";
 
 // Object type
 otherMenssage = new String("menssage");
+
+// Template literal
+const name = "Rafael"
+const apresentation = `Hi!
+
+My name is ${name}!
+
+And this is a test.
+
+Thank you!`
+
+console.log(apresentation);
