@@ -10,3 +10,12 @@ mouse.changeDPI = function() {
 delete mouse.dpi;
 delete mouse.changeDPI;
 console.log(mouse);
+
+const newMouse = Object.assign({
+    led: "red",
+}, mouse);
+
+console.log(newMouse);
+
+const otherNewMouse = {...newMouse};
+console.log(otherNewMouse);
