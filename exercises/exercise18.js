@@ -6,3 +6,9 @@ for (let number of numbers) {
 
 // Foreach
 numbers.forEach((number, index) => console.log(number, index));
+
+let phrase = "Hello! My name is Rafael";
+phrase = phrase.split(" ");
+console.log(phrase);
+const result = phrase.join(".");
+console.log(result);
