@@ -1,7 +1,7 @@
 <h1>JavaScript Course</h1>
 
 <h2>💻 About the project</h2>
-<p>Project developed with the theme of permission to enter a party.</p>
+<p>Repository of the complete JavaScript course from the "DevAprender" channel on Youtube.</p>
 
 <h2>🛠️ Technologies</h2>
 <ul>
